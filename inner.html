@@ -1,0 +1,10 @@
+<h1>Inner</h1>
+
+<img id='slowImg'>
+
+<script>
+  const {protocol, host} = window.top.location;
+  const realImgUrl = `${protocol}//${host}/images/eye.png`;
+  document.getElementById('slowImg').src = `http://deelay.me/1000?${realImgUrl}`;
+
+</script>

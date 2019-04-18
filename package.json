@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "demo": "http-server . -c-1 -o"
+  },
+  "devDependencies": {
+    "http-server": "0.11.1"
+  },
+  "dependencies": {
+    "jquery": "3.3.1"
+  }
+}
