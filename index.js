@@ -4,7 +4,7 @@ const iframe = document.getElementById('iframe');
 
 function addLoadingMaskFromParentWindow() {
   container.style.position = 'relative';
-  container.appendChild($(`<div class="loading">Loading ...</div>`)[0])
+  container.appendChild($(`<div class="loading"><div>Loading ...</div></div>`)[0])
 }
 
 function clearLoadingMask() {
